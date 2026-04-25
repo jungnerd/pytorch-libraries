@@ -111,7 +111,7 @@ a {
 
 .intro {
   max-width: min(1120px, calc(100% - 64px));
-  padding: 60px 0 58px;
+  padding: 66px 0 62px;
 }
 
 .intro > * {
@@ -125,15 +125,18 @@ a {
 .sections {
   display: grid;
   gap: 62px;
-  padding: 50px 0 96px;
+  padding: 50px 0 58px;
 }
 
 .eyebrow {
-  margin: 0 0 18px;
+  display: inline-flex;
+  margin: 0 0 20px;
+  padding-bottom: 8px;
   color: var(--accent);
-  font-size: 13px;
+  border-bottom: 2px solid var(--accent);
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -154,7 +157,7 @@ h1 {
 
 .description {
   max-width: 680px;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   color: #4f5662;
   font-size: 18px;
   line-height: 1.7;
@@ -162,18 +165,28 @@ h1 {
 
 .sync-line {
   margin: 0;
-  color: var(--muted);
-  font-family:
-    "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  color: #9a928c;
   font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.page-footer {
+  padding: 0 0 48px;
+  border-top: 1px solid var(--border);
+}
+
+.page-footer .sync-line {
+  padding-top: 18px;
 }
 
 .section-heading {
   display: grid;
   grid-template-columns: auto auto 1fr;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
+  column-gap: 14px;
+  row-gap: 8px;
+  margin-bottom: 18px;
 }
 
 .section-heading h2 {
@@ -186,22 +199,17 @@ h1 {
 }
 
 .section-heading small {
-  display: inline-flex;
-  min-width: 26px;
-  height: 22px;
-  align-items: center;
-  justify-content: center;
-  color: #9a543f;
-  background: var(--accent-soft);
-  border: 1px solid #ffd9cd;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
+  color: #8b8078;
+  font-size: 13px;
+  font-weight: 360;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
 }
 
 .section-heading span {
   height: 1px;
-  background: var(--border);
+  background: linear-gradient(90deg, var(--border), rgba(230, 226, 221, 0));
 }
 
 .library-grid {
@@ -312,10 +320,8 @@ h1 {
   background: transparent;
   border: 0;
   border-radius: 0;
-  font-family:
-    "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1;
 }
 
@@ -330,6 +336,8 @@ h1 {
   color: var(--accent);
   background: transparent;
   border-color: transparent;
+  font-size: 13px;
+  font-weight: 620;
 }
 
 .empty-state {

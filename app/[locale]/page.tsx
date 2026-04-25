@@ -6,17 +6,17 @@ import { SUPPORTED_LOCALES, buildCatalog, type GithubMetrics, type Locale } from
 
 const copy = {
   en: {
-    eyebrow: "PyTorch GitHub Organization",
+    eyebrow: "Ecosystem map",
     title: "PyTorch Libraries",
-    description: "A curated map of PyTorch libraries maintained under the PyTorch GitHub organization.",
+    description: "A curated map of PyTorch libraries, grouped by what they help you build.",
     synced: "Last synced from GitHub",
     pending: "Metrics pending",
     noLibraries: "No libraries in this category yet."
   },
   ko: {
-    eyebrow: "PyTorch GitHub 조직",
+    eyebrow: "Ecosystem map",
     title: "PyTorch Libraries",
-    description: "PyTorch GitHub 조직에서 관리되는 주요 라이브러리를 한곳에 모은 안내 페이지입니다.",
+    description: "PyTorch 라이브러리를 주요 용도에 따라 정리한 안내 페이지입니다.",
     synced: "GitHub 기준 마지막 갱신",
     pending: "지표 갱신 대기 중",
     noLibraries: "아직 이 카테고리에 표시할 라이브러리가 없습니다."
@@ -69,9 +69,6 @@ export default async function LocalePage({ params }: PageProps) {
           <p className="eyebrow">{text.eyebrow}</p>
           <h1 id="page-title">{text.title}</h1>
           <p className="description">{text.description}</p>
-          <p className="sync-line">
-            {text.synced} · {syncedAt ?? text.pending}
-          </p>
         </section>
       </div>
 
@@ -81,7 +78,7 @@ export default async function LocalePage({ params }: PageProps) {
             <section className="library-section" key={section.id} aria-labelledby={section.id}>
               <div className="section-heading">
                 <h2 id={section.id}>{section.title}</h2>
-                <small>{section.libraries.length}</small>
+                <small>{formatLibraryCount(section.libraries.length, locale)}</small>
                 <span aria-hidden="true" />
               </div>
 
@@ -107,6 +104,11 @@ export default async function LocalePage({ params }: PageProps) {
             </section>
           ))}
         </div>
+        <footer className="page-shell page-footer">
+          <p className="sync-line">
+            {text.synced} · {syncedAt ?? text.pending}
+          </p>
+        </footer>
       </div>
     </main>
   );
@@ -122,4 +124,8 @@ function formatSyncedAt(value: string | null, locale: Locale) {
     month: "short",
     day: "numeric"
   }).format(new Date(value));
+}
+
+function formatLibraryCount(count: number, locale: Locale) {
+  return locale === "ko" ? `${count}개 프로젝트` : `${count} libraries`;
 }
