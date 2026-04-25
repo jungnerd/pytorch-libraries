@@ -7,7 +7,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "core-domain",
     description: {
       en: "Build and train models with PyTorch's core tensor and autograd APIs.",
-      ko: "텐서와 autograd로 모델을 만들고 학습할 때 사용하는 핵심 프레임워크입니다."
+      ko: "텐서와 autograd를 기반으로 모델을 만들고 학습하는 핵심 인터페이스를 제공합니다."
     }
   },
   {
@@ -16,7 +16,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "core-domain",
     description: {
       en: "Use ready-made datasets, transforms, and model parts for vision work.",
-      ko: "이미지 데이터셋, 전처리, 비전 모델 구성 요소가 필요할 때 사용하는 라이브러리입니다."
+      ko: "이미지 데이터셋, 전처리, 비전 모델 구성 요소를 빠르게 가져다 쓸 수 있게 해줍니다."
     }
   },
   {
@@ -25,7 +25,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "core-domain",
     description: {
       en: "Load, transform, and model audio or speech data in PyTorch.",
-      ko: "오디오·음성 데이터를 불러오고 변환하거나 모델링할 때 사용하는 라이브러리입니다."
+      ko: "오디오·음성 데이터를 불러오고 변환하며 모델링하는 흐름을 지원합니다."
     }
   },
   {
@@ -34,7 +34,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "core-domain",
     description: {
       en: "Compose reusable data pipelines for PyTorch training jobs.",
-      ko: "학습 데이터 파이프라인을 조합 가능한 형태로 만들 때 사용하는 도구입니다."
+      ko: "학습 데이터 파이프라인을 재사용 가능한 단위로 조합하게 해줍니다."
     }
   },
   {
@@ -43,7 +43,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "training-optimization",
     description: {
       en: "Study or run reference recipes for training large generative models.",
-      ko: "대규모 생성형 모델의 학습 레시피와 분산 구성을 참고할 때 사용하는 스택입니다."
+      ko: "대규모 생성형 모델 학습 레시피와 분산 구성 예시를 제공합니다."
     }
   },
   {
@@ -52,7 +52,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "training-optimization",
     description: {
       en: "Quantize and optimize PyTorch models for faster, smaller inference.",
-      ko: "PyTorch 모델을 더 작고 빠르게 만들도록 양자화·최적화할 때 사용하는 도구입니다."
+      ko: "PyTorch 모델을 더 작고 빠르게 만들기 위한 양자화·최적화 기능을 제공합니다."
     }
   },
   {
@@ -61,7 +61,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "training-optimization",
     description: {
       en: "Accelerate quantized models and embedding-heavy workloads.",
-      ko: "양자화 모델과 큰 임베딩 테이블을 빠르게 처리할 때 사용하는 커널 라이브러리입니다."
+      ko: "양자화 모델과 큰 임베딩 테이블을 빠르게 처리하는 저수준 커널을 제공합니다."
     }
   },
   {
@@ -70,7 +70,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "training-optimization",
     description: {
       en: "Split model training into pipeline stages across devices.",
-      ko: "모델 학습을 여러 장치의 파이프라인 단계로 나눌 때 사용하는 도구입니다."
+      ko: "모델 학습을 여러 장치의 파이프라인 단계로 나누어 실행하게 해줍니다."
     }
   },
   {
@@ -79,7 +79,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "deployment-inference",
     description: {
       en: "Run PyTorch models directly on phones, wearables, and edge devices.",
-      ko: "모바일·웨어러블·엣지 기기에서 PyTorch 모델을 실행할 때 사용하는 런타임입니다."
+      ko: "모바일·웨어러블·엣지 기기에서 PyTorch 모델을 직접 실행하게 해줍니다."
     }
   },
   {
@@ -88,7 +88,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "deployment-inference",
     description: {
       en: "Package PyTorch models behind production inference APIs.",
-      ko: "PyTorch 모델을 API로 서빙하고 운영 환경에 올릴 때 사용하는 도구입니다."
+      ko: "PyTorch 모델을 추론 API로 패키징해 운영 환경에 올릴 수 있게 합니다."
     }
   },
   {
@@ -97,7 +97,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "deployment-inference",
     description: {
       en: "Compile PyTorch models to run faster with NVIDIA TensorRT.",
-      ko: "NVIDIA TensorRT로 PyTorch 모델 추론을 더 빠르게 만들 때 사용하는 컴파일러 통합입니다."
+      ko: "NVIDIA TensorRT를 활용해 PyTorch 모델 추론 속도를 끌어올립니다."
     }
   },
   {
@@ -106,7 +106,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "deployment-inference",
     description: {
       en: "Run PyTorch workloads on XLA devices such as TPUs.",
-      ko: "TPU 같은 XLA 장치에서 PyTorch 학습·추론을 실행할 때 사용하는 통합입니다."
+      ko: "TPU 같은 XLA 장치에서 PyTorch 학습·추론 워크로드를 실행하게 해줍니다."
     }
   },
   {
@@ -115,7 +115,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "applied-ml",
     description: {
       en: "Build reinforcement learning agents and environments in PyTorch.",
-      ko: "PyTorch로 강화학습 에이전트와 환경 루프를 만들 때 사용하는 라이브러리입니다."
+      ko: "PyTorch 기반 강화학습 에이전트와 환경 루프를 구성할 수 있게 합니다."
     }
   },
   {
@@ -124,7 +124,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "applied-ml",
     description: {
       en: "Pass structured batches of tensors through RL and ML pipelines.",
-      ko: "여러 텐서를 묶은 배치 데이터를 구조적으로 주고받을 때 사용하는 컨테이너입니다."
+      ko: "여러 텐서를 묶은 배치 데이터를 구조적으로 주고받게 해줍니다."
     }
   },
   {
@@ -133,7 +133,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "applied-ml",
     description: {
       en: "Train and scale recommendation models with sparse features.",
-      ko: "희소 특징과 임베딩이 많은 추천 모델을 학습·확장할 때 사용하는 라이브러리입니다."
+      ko: "희소 특징과 임베딩이 많은 추천 모델을 학습하고 확장하는 데 초점을 둡니다."
     }
   },
   {
@@ -142,7 +142,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "applied-ml",
     description: {
       en: "Optimize expensive experiments with Bayesian optimization.",
-      ko: "비싼 실험의 하이퍼파라미터나 설계값을 효율적으로 찾을 때 사용하는 라이브러리입니다."
+      ko: "비싼 실험의 하이퍼파라미터와 설계값을 베이지안 최적화로 탐색합니다."
     }
   },
   {
@@ -151,7 +151,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "developer-tools",
     description: {
       en: "Profile CPU and GPU activity to find performance bottlenecks.",
-      ko: "CPU·GPU 실행 시간을 추적해 성능 병목을 찾을 때 사용하는 프로파일러입니다."
+      ko: "CPU·GPU 실행 시간을 추적해 성능 병목을 찾는 데 도움을 줍니다."
     }
   },
   {
@@ -160,7 +160,7 @@ export const curatedLibraries: CuratedLibrary[] = [
     category: "developer-tools",
     description: {
       en: "Compare PyTorch performance across models, versions, and changes.",
-      ko: "모델·버전·코드 변경에 따른 PyTorch 성능 차이를 비교할 때 사용하는 벤치마크입니다."
+      ko: "모델·버전·코드 변경에 따른 PyTorch 성능 차이를 비교하게 해줍니다."
     }
   }
 ];

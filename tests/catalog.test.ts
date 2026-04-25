@@ -5,6 +5,7 @@ import {
   buildCatalog,
   formatRelativeUpdate
 } from "../lib/catalog";
+import { curatedLibraries } from "../data/libraries";
 
 describe("buildCatalog", () => {
   it("groups non-archived libraries into five ordered categories", () => {
@@ -93,6 +94,20 @@ describe("buildCatalog", () => {
       href: "https://github.com/pytorch/executorch",
       starsLabel: null
     });
+  });
+});
+
+describe("curatedLibraries", () => {
+  it("keeps Korean descriptions action-oriented instead of repeating type labels", () => {
+    const repeatedTypeLabels = curatedLibraries
+      .map((library) => library.description.ko)
+      .filter((description) =>
+        /(라이브러리|프레임워크|도구|스택|런타임|통합|컨테이너|프로파일러|벤치마크)입니다\.$/.test(
+          description
+        )
+      );
+
+    expect(repeatedTypeLabels).toEqual([]);
   });
 });
 
