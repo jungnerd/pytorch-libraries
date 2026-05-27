@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-05-26T06:16:56.626Z",
+  "updatedAt": "2026-05-27T06:39:31.995Z",
   "repos": {
     "pytorch/pytorch": {
       "repo": "pytorch/pytorch",
-      "stars": 100184,
-      "pushedAt": "2026-05-26T06:16:16Z",
+      "stars": 100193,
+      "pushedAt": "2026-05-27T06:33:53Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/pytorch"
     },
     "pytorch/vision": {
       "repo": "pytorch/vision",
-      "stars": 17699,
-      "pushedAt": "2026-05-25T12:42:49Z",
+      "stars": 17697,
+      "pushedAt": "2026-05-26T15:02:43Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/vision"
     },
     "pytorch/audio": {
       "repo": "pytorch/audio",
-      "stars": 2880,
+      "stars": 2879,
       "pushedAt": "2026-05-25T12:42:42Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/audio"
@@ -31,22 +31,22 @@
     },
     "pytorch/torchtitan": {
       "repo": "pytorch/torchtitan",
-      "stars": 5378,
-      "pushedAt": "2026-05-26T06:10:29Z",
+      "stars": 5384,
+      "pushedAt": "2026-05-27T06:38:16Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/torchtitan"
     },
     "pytorch/ao": {
       "repo": "pytorch/ao",
       "stars": 2834,
-      "pushedAt": "2026-05-26T02:21:23Z",
+      "pushedAt": "2026-05-26T23:11:42Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/ao"
     },
     "pytorch/FBGEMM": {
       "repo": "pytorch/FBGEMM",
       "stars": 1566,
-      "pushedAt": "2026-05-25T12:43:27Z",
+      "pushedAt": "2026-05-27T04:03:21Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/FBGEMM"
     },
@@ -59,8 +59,8 @@
     },
     "pytorch/executorch": {
       "repo": "pytorch/executorch",
-      "stars": 4660,
-      "pushedAt": "2026-05-26T05:58:59Z",
+      "stars": 4661,
+      "pushedAt": "2026-05-27T06:24:50Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/executorch"
     },
@@ -74,7 +74,7 @@
     "pytorch/TensorRT": {
       "repo": "pytorch/TensorRT",
       "stars": 2967,
-      "pushedAt": "2026-05-25T19:26:41Z",
+      "pushedAt": "2026-05-27T01:23:57Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/TensorRT"
     },
@@ -87,22 +87,22 @@
     },
     "pytorch/rl": {
       "repo": "pytorch/rl",
-      "stars": 3444,
-      "pushedAt": "2026-05-26T04:50:17Z",
+      "stars": 3446,
+      "pushedAt": "2026-05-27T03:44:40Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/rl"
     },
     "pytorch/tensordict": {
       "repo": "pytorch/tensordict",
       "stars": 1029,
-      "pushedAt": "2026-05-25T18:42:25Z",
+      "pushedAt": "2026-05-26T18:56:46Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/tensordict"
     },
     "pytorch/torchrec": {
       "repo": "pytorch/torchrec",
-      "stars": 2549,
-      "pushedAt": "2026-05-25T15:05:11Z",
+      "stars": 2550,
+      "pushedAt": "2026-05-26T23:52:36Z",
       "archived": false,
       "htmlUrl": "https://github.com/meta-pytorch/torchrec"
     },
@@ -115,14 +115,14 @@
     },
     "pytorch/kineto": {
       "repo": "pytorch/kineto",
-      "stars": 954,
+      "stars": 955,
       "pushedAt": "2026-05-20T18:50:49Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/kineto"
     },
     "pytorch/benchmark": {
       "repo": "pytorch/benchmark",
-      "stars": 1036,
+      "stars": 1037,
       "pushedAt": "2026-05-25T21:57:21Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/benchmark"
