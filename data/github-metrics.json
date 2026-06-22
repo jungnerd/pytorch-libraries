@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-06-21T07:06:04.024Z",
+  "updatedAt": "2026-06-22T07:39:50.867Z",
   "repos": {
     "pytorch/pytorch": {
       "repo": "pytorch/pytorch",
-      "stars": 100914,
-      "pushedAt": "2026-06-21T06:57:26Z",
+      "stars": 100950,
+      "pushedAt": "2026-06-22T07:36:11Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/pytorch"
     },
     "pytorch/vision": {
       "repo": "pytorch/vision",
-      "stars": 17762,
-      "pushedAt": "2026-06-20T12:10:00Z",
+      "stars": 17761,
+      "pushedAt": "2026-06-21T12:16:05Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/vision"
     },
     "pytorch/audio": {
       "repo": "pytorch/audio",
-      "stars": 2887,
-      "pushedAt": "2026-06-20T12:09:53Z",
+      "stars": 2886,
+      "pushedAt": "2026-06-21T12:15:58Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/audio"
     },
     "pytorch/data": {
       "repo": "pytorch/data",
       "stars": 1255,
-      "pushedAt": "2026-06-20T12:09:55Z",
+      "pushedAt": "2026-06-21T12:16:00Z",
       "archived": false,
       "htmlUrl": "https://github.com/meta-pytorch/data"
     },
     "pytorch/torchtitan": {
       "repo": "pytorch/torchtitan",
-      "stars": 5452,
-      "pushedAt": "2026-06-21T01:44:03Z",
+      "stars": 5454,
+      "pushedAt": "2026-06-22T07:28:24Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/torchtitan"
     },
     "pytorch/ao": {
       "repo": "pytorch/ao",
-      "stars": 2862,
+      "stars": 2863,
       "pushedAt": "2026-06-19T08:35:42Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/ao"
@@ -46,7 +46,7 @@
     "pytorch/FBGEMM": {
       "repo": "pytorch/FBGEMM",
       "stars": 1568,
-      "pushedAt": "2026-06-20T12:10:36Z",
+      "pushedAt": "2026-06-21T23:19:26Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/FBGEMM"
     },
@@ -60,13 +60,13 @@
     "pytorch/executorch": {
       "repo": "pytorch/executorch",
       "stars": 4745,
-      "pushedAt": "2026-06-21T03:19:36Z",
+      "pushedAt": "2026-06-22T07:33:41Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/executorch"
     },
     "pytorch/serve": {
       "repo": "pytorch/serve",
-      "stars": 4355,
+      "stars": 4354,
       "pushedAt": "2025-08-06T19:17:08Z",
       "archived": true,
       "htmlUrl": "https://github.com/pytorch/serve"
@@ -74,7 +74,7 @@
     "pytorch/TensorRT": {
       "repo": "pytorch/TensorRT",
       "stars": 2973,
-      "pushedAt": "2026-06-20T12:10:30Z",
+      "pushedAt": "2026-06-21T22:39:02Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/TensorRT"
     },
@@ -87,22 +87,22 @@
     },
     "pytorch/rl": {
       "repo": "pytorch/rl",
-      "stars": 3466,
-      "pushedAt": "2026-06-21T06:35:36Z",
+      "stars": 3467,
+      "pushedAt": "2026-06-21T18:32:57Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/rl"
     },
     "pytorch/tensordict": {
       "repo": "pytorch/tensordict",
       "stars": 1030,
-      "pushedAt": "2026-06-20T18:38:45Z",
+      "pushedAt": "2026-06-21T18:40:38Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/tensordict"
     },
     "pytorch/torchrec": {
       "repo": "pytorch/torchrec",
-      "stars": 2569,
-      "pushedAt": "2026-06-20T12:10:04Z",
+      "stars": 2568,
+      "pushedAt": "2026-06-22T07:25:07Z",
       "archived": false,
       "htmlUrl": "https://github.com/meta-pytorch/torchrec"
     },
@@ -115,14 +115,14 @@
     },
     "pytorch/kineto": {
       "repo": "pytorch/kineto",
-      "stars": 964,
+      "stars": 965,
       "pushedAt": "2026-06-17T21:34:19Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/kineto"
     },
     "pytorch/benchmark": {
       "repo": "pytorch/benchmark",
-      "stars": 1036,
+      "stars": 1037,
       "pushedAt": "2026-06-18T12:20:23Z",
       "archived": false,
       "htmlUrl": "https://github.com/pytorch/benchmark"
